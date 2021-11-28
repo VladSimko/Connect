@@ -1,0 +1,189 @@
+body{
+    background-color: black;
+    color: white;
+}
+.welcome {
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/06/12/11/people-2591928_960_720.jpg");
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.BlackSolid {
+    margin-top: 100px;
+    width: fit-content;
+    height: 80px;
+    color: white;
+    background-color: black;
+    opacity: 1;
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.HalfBlackSolid {
+    margin-top: 5px;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50px;
+    background-color: #000000;
+    opacity: 0.5;
+    color: #ececec;
+    font-size: 30px;
+}
+
+.WhiteBorder {
+    Border: white solid;
+    padding: 5px;
+}
+
+.GreySection {
+    background-color: rgb(38,38,38);
+    color: white;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 720px) {
+    .CenterTextGreySel {
+        margin: auto;
+        width: 80%;
+        padding: 15px;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .CenterTextGreySel {
+        margin: auto;
+        width: 50%;
+        padding: 50px;
+    }
+}
+
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+.ImgSelection {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+}
+
+.leftText {
+    text-align: left;
+}
+
+.footer {
+    background-color: #342525;
+    color: white;
+    clear: both;
+    position: relative;
+    height: 250px;
+    margin-top: 200px;
+}
+
+.centerText {
+    text-align: center;
+}
+
+
+.BorderThree {
+    border-radius: 15px 50px 30px;
+    padding: 10px;
+    width: 350px;
+    height: auto;
+}
+
+
+@media only screen and (max-width: 540px) {
+    .BorderThree {
+        border-radius: 15px 50px 30px;
+        padding: 5px;
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .BorderCircle {
+        border-radius: 50%;
+        width: 200px;
+
+    }
+}
+@media only screen and (max-width: 720px) {
+    .BorderCircle {
+        border-radius: 50%;
+        width: 100px;
+
+    }
+}
+
+.BgDarkViolet {
+    background-color: rgb(28, 5, 58);
+    padding-bottom: 10px;
+}
+
+.BgDarkViolet h3 {
+    text-align: end;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.BgViolet {
+    background: rgb(112, 108, 117);
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+input[type = "name"],input[type = "lastname"],input[type = "email"],textarea[type = "text"] {
+    border: white solid 1px;
+    color: white;
+    background: none;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    outline: none;
+    border-radius: 25px;
+    width: auto;
+    height: 35px;
+}
+textarea[type = "text"] {
+    height: 150px;
+    width: 220px;
+}
+textarea[type = "text"]:focus {
+    border: rgb(59, 151, 255) solid 1px;
+}
+
+input[type = "name"]:focus,input[type = "lastname"]:focus,input[type = "email"]:focus {
+    border: rgb(59, 151, 255) solid 1px;
+    width: 220px;
+}
+
+input[type = "submit"], .menuBtn{
+    border: rgb(59, 151, 255) solid 1px;
+    color: white;
+    background: none;
+    display: block;
+    margin: 0px auto;
+    outline: none;
+    border-radius: 25px;
+    height: 35px;
+    text-align: left;
+    display: inline;
+}
+form {
+    overflow: hidden;
+  }
+
+input[type = "submit"]:hover, .menuBtn:hover {
+    background: rgb(59, 151, 255);
+}
+
+
+
+

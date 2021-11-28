@@ -1,0 +1,86 @@
+
+
+.sky {
+    height: 80vh;
+    width: 70vw;
+    border: 1px solid black;
+    margin: 5rem auto;
+    background: url("./assets/obloha.jpg");
+    background-size: cover;
+    position: relative;
+    box-shadow: 1px 2px 60px;
+    overflow-x: hidden;
+}
+
+.city {
+    height: 284px;
+    width: 500%;
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background: url("./assets/mesto.png");
+    background-repeat: repeat;
+}
+
+.car {
+    position: absolute;
+    bottom: 6%;
+    left: 24%;
+
+}
+
+.wheelL {
+    position: absolute;
+    left: 18%;
+    bottom: 3%;
+}
+.wheelR {
+    position: absolute;
+    right: 8%;
+    bottom: 3%;
+}
+
+@keyframes moveRight {
+    100%{transform: translateX(-2950px)}
+}
+
+@keyframes jumping {
+    100% {
+        transform: translateY(-3px);
+    }
+
+    50% {
+        transform: translateY(2px);
+    }
+
+}
+
+.moveRight {
+    animation: moveRight 10s linear infinite;
+}
+
+.jumping {
+    animation: jumping 0.5s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.spin {
+    animation: spin 1s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+.light {
+    position: absolute;
+    bottom: 3%;
+    left: 96%;
+}
